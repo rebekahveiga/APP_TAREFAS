@@ -77,8 +77,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#22272e',
+    backgroundColor: 'purple',
     paddingTop: 28,
+    paddingBottom: 14,
   },
   title:{
     fontSize: 24,
@@ -91,11 +92,12 @@ const styles = StyleSheet.create({
   buttonApp:{
     width: '15%',
     height: 44,
-    backgroundColor: '#73f7ff',
+    backgroundColor: 'black',
     marginLeft: 8,
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 4,
+    marginBottom: 15,
   },
   containerInput:{
     flexDirection: 'row',
@@ -112,6 +114,7 @@ const styles = StyleSheet.create({
     height: 44,
     borderRadius: 4,
     paddingHorizontal: 8,
+    marginBottom: 15,
 
   },
   list:{

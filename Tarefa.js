@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         flexDirection: 'row',
     },
-    buttom:{
+    button:{
         marginRight: 8,
 
     }
